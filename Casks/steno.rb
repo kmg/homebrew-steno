@@ -1,13 +1,13 @@
 cask "steno" do
-  version "0.2.14"
-  sha256 "a447a25ca1ca071cd9582705bcdecabbcdb5259515b9672e2d1fb69032f150ec"
+  version "0.2.17"
+  sha256 "93d3f4abf9738157c6029bf8d663f160a1d3b8f94365f2ca25a884d5cb79c4a1"
 
   url "https://github.com/kmg/steno/releases/download/v#{version}/Steno-v#{version}.dmg"
   name "Steno"
   desc "Local macOS meeting transcription. No cloud, no bots, no telemetry."
   homepage "https://github.com/kmg/steno"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
 
   app "Steno.app"
