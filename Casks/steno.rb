@@ -1,6 +1,6 @@
 cask "steno" do
-  version "0.2.17"
-  sha256 "e317ee68b427dd19e48da7e07ea18c29ce53c6363efff057fc8cb9e2160603c0"
+  version "0.2.18"
+  sha256 "31a5e5b148c06e8106901062f16512a25b1a4b00bb93537f8c8dca2c4eb964d5"
 
   url "https://github.com/kmg/steno/releases/download/v#{version}/Steno-v#{version}.dmg"
   name "Steno"
